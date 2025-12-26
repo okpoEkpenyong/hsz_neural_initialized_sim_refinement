@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data (Never commit large datasets)
+data/
+*.npz
+*.npy
+*.csv
+*.h5
+
+# Models
+*.pth
+*.pt
+*.ckpt
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter / Azure ML
+.ipynb_aml_checkpoints/
+*.amltmp
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/
